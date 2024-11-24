@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+  <title>Luxo Aluguel de Iates</title>
+
+</head>
+
+<body>
+  <header>
+    <div class="top">
+      <div class="logo">
+        <img src="imagens/logo.png" alt="Logo" />
+        <div class="logoText">
+          <p style="color: #1bb4e8">Luxo</p>
+          <p>Aluguel de iates</p>
+        </div>
+      </div>
+      <div class="menu">
+        <a href="#">PÁGINA INICIAL</a> |
+        <a href="#"> ALUGUEL DE IATES </a> | <a href="#">DESTINOS</a> |
+        <a href="#">TRIPULAÇÃO</a> |
+        <a href="#">CONTATO</a>
+      </div>
+  </header>
+
+  <div class="hero">
+    <img src="imagens/iate.jpg" alt="Iate" />
+    <div class="cta">
+      <h1>Você só encontra coisas boas, se combinar luxo e paixão.</h1>
+      <div class="contato">
+        <img src="imagens/logo.png" alt="Logo" />
+        <p>Ligue agora para agendar as férias de sua vida: <span style="color: #C6B07F">(00) 8000-0000</span></p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="section">
+    <div class="column">
+      <div class="titulo">
+        <img src="imagens/bussola.png" alt="Bussola" />
+        <h2>Destinos</h2>
+      </div>
+      <h3>Sou um título. Clique aqui para me editar.</h3>
+      <p>
+        Clique aqui para adicionar seu texto e me editar. É fácil, basta
+        clicar em "Editar texto" ou clicar duas vezes sobre mim e poderá
+        adicionar seu próprio conteúdo e mudar fontes. Sou um ótimo lugar para
+        contar sua história e permitir que seus visitantes saibam um pouco
+        mais sobre você.
+      </p>
+
+      <img src="imagens/barcodestino.jpg" alt="Destinos" />
+    </div>
+    <div class="column">
+      <div class="titulo">
+        <img src="imagens/bussola.png" alt="Bussola" />
+
+        <h2>Nossa frota</h2>
+      </div>
+      <h3>Sou um título. Clique aqui para me editar.</h3>
+      <p>
+        Clique aqui para adicionar seu texto e me editar. É fácil, basta
+        clicar em "Editar texto" ou clicar duas vezes sobre mim e poderá
+        adicionar seu próprio conteúdo e mudar fontes. Sou um ótimo lugar para
+        contar sua história e permitir que seus visitantes saibam um pouco
+        mais sobre você.
+      </p>
+
+      <div class="images">
+        <img src="imagens/barconossafrota2.jpg" alt="Frota" />
+        <img src="imagens/barconossafrota1.jpg" alt="Frota" />
+        <img src="imagens/barconossafrota1.jpg" alt="Frota" />
+        <img src="imagens/barconossafrota2.jpg" alt="Frota" />
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2023 por Luxo aluguel de iates</footer>
+</body>
+
+</html>
+<style>
+  header {
+    background: #21272b;
+    padding: 15px 30px;
+  }
+
+  .top {
+    height: auto;
+    max-height: 100%;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logoText p {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0;
+  }
+
+  .menu {
+    color: #fff;
+    position: absolute;
+    top: 43px;
+    right: 22px;
+  }
+
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+  }
+
+  .menu a:first-of-type {
+    color: #1bb4e8;
+  }
+
+  body {
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 30px;
+    background-color: #ebebeb;
+    color: #fff
+  }
+
+  .hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .hero .cta {
+    position: absolute;
+    top: 180px;
+    left: 51%;
+    width: 47%;
+    background: #1A3243;
+    color: #fff;
+    font-style: italic;
+    padding: 15px 30px 40px 25px;
+    opacity: 90%;
+    box-sizing: border-box;
+    z-index: 10;
+    transform: translateX(0%);
+  }
+
+  .hero .cta h1 {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+  }
+
+  .hero .contato {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero .contato img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .contato p {
+    height: 40px;
+    width: 290px;
+    font-size: 17px;
+    margin: 0;
+    text-align: left;
+
+  }
+
+  .section {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+
+  }
+
+  .section h2 {
+    font-style: italic;
+    font-weight: 100;
+  }
+
+  .section .column {
+    flex: 1;
+    background: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .section .column:nth-of-type(2) .titulo {
+    background-color: #C6B07F;
+  }
+
+  .titulo img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .titulo {
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    background-color: #1bb4e8;
+    font-size: 14px;
+    color: #fff;
+    height: min-content;
+    padding: 5px;
+  }
+
+  .titulo h2 {
+    margin: 0;
+  }
+
+  .images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .section .column {
+    color: black;
+  }
+
+  .section .column h3 {
+    font-weight: 100;
+    font-size: 18px;
+    font-style: italic;
+  }
+
+  .section .column p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .section .column img {
+    max-width: 100%;
+  }
+
+  footer {
+    padding: 30px 30px;
+    background: #e9e2e2;
+    opacity: 70%;
+    color: black;
+    margin-left: -30px;
+    margin-right: -30px;
+    display: flex;
+    box-sizing: border-box;
+  }
+</style>
